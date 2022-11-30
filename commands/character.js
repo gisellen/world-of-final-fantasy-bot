@@ -19,7 +19,6 @@ module.exports = {
       `https://www.moogleapi.com/api/v1/characters/search?${query}`
     );
     const data = JSON.parse(await body.text());
-    console.log(await data);
     const file = new AttachmentBuilder(data[0].pictures[0].url);
 
     const embed = new EmbedBuilder()

@@ -2,3 +2,4 @@
 /node_modules
 /commands/ping.js
 /commands/embed.js
+/commands/page.js
